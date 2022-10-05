@@ -1,17 +1,23 @@
 const redis = require("ioredis");
 
 const redisExport = redis.createClient({
+    
+    // Edit these information below
     host: "hostname/url/ipadress from your redis server",
     port: "port from your redis server",
     password: "password from your redis server",
     username: "username from your redis server"
+    // Edit finish
 });
 
 const redisImport = redis.createClient({
+    
+    // Edit these information below
     host: "hostname/url/ipadress from your redis server",
     port: "port from your redis server",
     password: "password from your redis server",
     username: "username from your redis server"
+    // Edit finish
 });
 
 async function transferKeys() {
