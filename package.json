@@ -1,0 +1,23 @@
+{
+  "name": "transferrediskeys",
+  "version": "1.1.0",
+  "description": "A tool to transfer redis keys from one db to another.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RedEagle-dh/TransferRedisKeys.git"
+  },
+  "author": "RedEagle",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RedEagle-dh/TransferRedisKeys/issues"
+  },
+  "homepage": "https://github.com/RedEagle-dh/TransferRedisKeys#readme",
+  "dependencies": {
+    "ioredis": "^5.3.1",
+    "readline": "^1.3.0"
+  }
+}
